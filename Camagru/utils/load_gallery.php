@@ -20,8 +20,7 @@ while (($img_data = $img_query->fetch(PDO::FETCH_ASSOC)) !== false) {
   $img_id = $img_data['img_id'];
 
   $page_content = "<div class='publication'><div class='pub_img'>
-    <h3 class='post_infos' style='float: left'>".$img_data['author']."</h3>
-		<img class='gallery_photos' src='../photos/upload".$img_link."'></img>
+    		<img class='gallery_photos' src='../photos/upload".$img_link."'></img>
 		<img id='addlike_".$img_id."' class='like' src='../photos/icons/like.png' onclick='add_like(this)'>
 		<p id='nblikes_".$img_id."' class='nb_likes'>".$img_data['nb_likes']."</p></img>";
   if ($_SESSION['logged'] !== NULL) {
