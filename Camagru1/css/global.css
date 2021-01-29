@@ -1,0 +1,21 @@
+body{
+	background-color: #68137e;
+	margin: 0;
+}
+
+.main_container {
+  display:inline-block;
+  vertical-align:top;
+	margin: auto;
+	max-width: 90%;
+  border-radius: 5px;
+  background-color: rgb(134, 126, 51);
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.error_msg {
+	margin: 0;
+	color: red;
+	display: none;
+}
