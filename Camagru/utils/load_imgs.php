@@ -34,7 +34,7 @@ $query = $db->query("SELECT img_path FROM uploads WHERE id_user = $user_id ORDER
 while (($res = $query->fetchColumn()) !== false) {
   $start = strrpos($res, "/");
   $img = substr($res, $start, strlen($res) - $start);
-  $response .= "<img class='photos' src='photos/upload$img' onclick='delete_img(this)'>";
+  $response .= "<img class='photos' src='photos/upload$img' onclick='delete_img(this)'style='float:left'>";
 }
 if ($response === "") {
   $response = "<img id='photo_default' class='photos' src='photos/icons/user.jpg' width='640' height='480'>";
