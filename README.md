@@ -31,20 +31,6 @@ Remember to change these credentials to make the database more secure
 
 8.Once verified, you can now login the website for usage.
 
-##Architecture:
-
-1.background, contains the background image.
-
-2.config, contains all the setup files to start using the website and also the database info.
-
-3.functions, contains all the different functions that are used right through the website.
-
-4.images, contains all the stickers that can be added to a picture.
-
-5.includes, contains the javascript that makes it possible for the user to take a picture with a webcam and also to add stickers to that picture. It also contains a connection file that is used to connect to the database.
-
-6.users, contains all the functions that has something to do with the user.
-
 ##Testing:
 
 These are the test that I executed with their expected outcomes:
